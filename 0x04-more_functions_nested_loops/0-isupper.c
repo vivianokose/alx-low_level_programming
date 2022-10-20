@@ -6,10 +6,10 @@
  *
  * Return: 1 if c is uppercase, 0 otherwise
  */
-int _supper(int c)
+int _ispper(int c)
 {
 	if ((c >= 'A') && (c <= 'Z'))
-		return (1);
-	else
-		return (0);
+			return (1);
+		else
+			return (0);
 }
