@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print function that prints numbers, from 0 to 9
+ * print_most_numbers - print function of nummbers
  * by vivian okose
- *
- * Return void
+ * Return: void
  */
 void print_most_numbers(void)
 {
-	int i;
+	int v;
 
-	for (i = '0'; i <= '9'; i++)
+	for (v = '0'; v <= '9'; v++)
 	{
-		if ((i == '2') || (i == '4'))
-			_putchar(i);
+		if ((v == '2' || v == '4'))
+			_putchar(v);
 	}
 	_putchar('\n');
 }
