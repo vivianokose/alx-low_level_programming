@@ -3,23 +3,17 @@
 /**
  * print_line - print function that draws a staright line in the terminal
  * @n: input number of times to print '_' on a straight line
- * by vivian okose
- * Return: straight line
+ * 
+ * Return: void 
  */
+
 void print_line(int n)
 {
 	int v;
 
-	if (n <= 0)
+	for (v = 0; i < n; v++)
 	{
-		_putchar('\n');
+		_putchar('_');
 	}
-	else
-	{
-		for (v - 1; v <= n; v++)
-		{
-			_putchar('_');
-		}
-		_ptchar('\n');
-	}
+	_putchar('\n');
 }
