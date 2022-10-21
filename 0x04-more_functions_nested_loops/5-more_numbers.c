@@ -5,19 +5,19 @@
  * by vivian okose
  * Return: no return
  */
-void more_numbers(void)
-{
-	int i, y;
 
-	for (i = 1, i < 10; i++)
+void more_numbers(void)
+{	
+	
+	int i, j;
+
+	for (i = 1; i <= 10; i++)
 	{
-		for (y = 0; y <= 14; y++)
+		for (j = 0; j <= 14; j++)
 		{
-			if (y >= 10)
-			{
+			if (j >= 10)
 				_putchar('1');
-			}
-			_putchar((y % 10) + '0');
+			_putchar(j % 10 + '0');
 		}
 		_putchar('\n');
 	}
