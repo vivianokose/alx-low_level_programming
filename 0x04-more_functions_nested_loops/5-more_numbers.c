@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * more_numbers - a function that prints 10 times the numbers, from 0 - 14
- * _putchar only 3 times
- * Return: 0-14 x10 followed by a new line
+ * more_numbers - print number function
+ * by vivian okose
+ * Return: no return
  */
 void more_numbers(void)
 {
-	int i, ro;
+	int i, y;
 
-	for (ro = 0, ro < 10; ro++)
+	for (i = 1, i < 10; i++)
 	{
-		for (i = 0; i <= 14; i++)
+		for (y = 0; y <= 14; y++)
 		{
-			if (i >= 10)
+			if (y >= 10)
 			{
-				putchar((i / 10) + '0');
+				_putchar('1');
 			}
-			_putchar((1 % 10) + '0');
+			_putchar((y % 10) + '0');
 		}
 		_putchar('\n');
 	}
