@@ -5,6 +5,7 @@
  * by vivian okose
  * Return: void
  */
+
 void print_most_numbers(void)
 {
 	int v;
