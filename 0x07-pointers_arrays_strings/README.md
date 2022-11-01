@@ -1,1 +1,1 @@
-Pointers, arrays and strings
+Readme for 0x07-pointer
