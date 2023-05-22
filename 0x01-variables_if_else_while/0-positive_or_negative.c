@@ -1,23 +1,32 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
-int main() {
-    srand(time(NULL));  // Seed the random number generator
-    
-    int n = rand() - RAND_MAX / 2;  // Generate a random number
-    
-    printf("The number %d is ", n);
-    
-    if (n > 0) {
-        printf("positive");
-    } else if (n == 0) {
-        printf("zero");
-    } else {
-        printf("negative");
-    }
-    
-    printf("\n");
-    
-    return 0;
+/**
+ * main - print if the number is positive, zero, or negative
+ *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negtive
+ *Return: 0
+ */
+int main(void)
+{
+int n;
+
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */
+if (n > 0)
+{
+	printf("%i is positive\n", n);
+}
+else if (n == 0)
+{
+	printf("%i is zero\n", n);
+}
+else if (n < 0)
+{
+	printf("%i is negative\n", n);
+}
+return (0);
 }

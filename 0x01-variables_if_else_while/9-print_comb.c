@@ -1,20 +1,22 @@
 #include <stdio.h>
+/**
+ * main - print single digit numbers
+ *
+ * Return: always 0 (success)
+ */
+int main(void)
+{
+	int i;
 
-int main() {
-    int number = 0;
-    
-    while (number < 10) {
-        putchar('0' + number);
-        
-        if (number < 9) {
-            putchar(',');
-            putchar(' ');
-        }
-        
-        number++;
-    }
-    
-    putchar('\n');
-    
-    return 0;
+	for (i = 10; i < 20; i++)
+	{
+		putchar((i % 10) + '0');
+		if (i != 19)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
