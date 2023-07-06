@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  * print_rev - Prints a string in reverse.
- *   * @s: string to tbe reserved.
- *    */
+ * print_rev - Prints a string in reverse.
+ * @s: string to tbe reserved.
+ */
 void print_rev(char *s)
 {
 	int len = 0, i = 0;

@@ -2,17 +2,17 @@
 #include <stddef.h>
 
 /**
- *  * _strlen - Returns the length of a string.
- *   * @str: string.
- *    *
- *     * Return: Length.
- *      */
+ * _strlen - Returns the length of a string.
+ * @str: string.
+ *
+ * Return: Length.
+ */
 int _strlen(char *str)
 {
-		size_t len = 0;
+	size_t len = 0;
 
-		while (*str++)
-			len++;
+	while (*str++)
+		len++;
 
-		return (len);
+	return (len);
 }
