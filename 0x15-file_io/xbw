@@ -1,0 +1,5 @@
+
+	else
+		printf("%#lx\n", e_entry);
+}
+

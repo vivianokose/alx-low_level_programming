@@ -1,0 +1,5 @@
+{
+	printf("  Class:                             ");
+
+	switch (e_ident[EI_CLASS])
+	{

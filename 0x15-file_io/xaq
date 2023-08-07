@@ -1,0 +1,5 @@
+		break;
+	case ELFCLASS64:
+		printf("ELF64\n");
+		break;
+	default:

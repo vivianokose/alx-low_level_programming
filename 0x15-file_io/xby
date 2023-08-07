@@ -1,0 +1,5 @@
+ */
+void close_elf(int elf)
+{
+	if (close(elf) == -1)
+	{

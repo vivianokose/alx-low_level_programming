@@ -1,0 +1,5 @@
+	}
+}
+
+/**
+ * print_version - Prints the version of an ELF header.
